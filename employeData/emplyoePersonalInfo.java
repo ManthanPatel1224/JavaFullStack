@@ -4,6 +4,12 @@ public class emplyoePersonalInfo {
 
 	private String name,email,add;
 	private int phoneNumber;
+	
+	//Defualt constructor
+	public emplyoePersonalInfo() {
+		name = "Defult";
+		email = "none";
+	}
 
 	public String getEmail() {
 		return email;

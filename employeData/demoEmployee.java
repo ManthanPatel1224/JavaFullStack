@@ -4,6 +4,7 @@ public class demoEmployee {
 	public static void main(String[] args) {
 		//obj of empinfo
 		emplyoePersonalInfo emp = new emplyoePersonalInfo();
+		System.out.println(emp);// call defult constructor 
 		
 		emp.setEname("manthan");
 		emp.setEmail("manthan123@gmail.com");
